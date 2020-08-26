@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="">
+    <link rel="icon" href="./icons/gym.jpg">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Love Calculator</title>
+  </head>
+  <body>
+         <h1>
+             Love Calculator
+         </h1><br>  
+        
+         <label>Your Name</label>
+         <input type="text" placeholder="Enter Your Name"  id="firstname"><br>
+         
+         <label>Partner Name</label>
+         <input type="text" placeholder="Enter Your Name"  id="Partnername"><br>
+
+         <button onclick="Parth()">   <!--Parth() function call-->
+            Click Here
+        </button>
+
+        <h1 id="rama">Result will be displayed here</h1><br>
+
+<script>
+    function Parth()//function define
+    {
+      
+       var result=Math.ceil(Math.random()*100);
+       document.getElementById("rama").innerHTML=result;
+       
+
+      
+    }
+</script>
+  </body>
+</html>
+     
